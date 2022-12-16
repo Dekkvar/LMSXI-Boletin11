@@ -1,0 +1,98 @@
+* {
+  width: 100vw;
+  justify-content: center;
+}
+
+#title, #section {
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  height: 10vh;
+  align-items: center;
+  font-size: xx-large;
+}
+
+#table {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 9fr;
+  row-gap: 30px;
+  background-image: linear-gradient(to bottom left, #d4a580, #b35b10);
+  background-color: #b35b10;
+  border-radius: 50px;
+  width: fit-content;
+  padding: 40px 20px 20px 20px;
+}
+
+#table div {
+  width: auto;
+  margin: 5px;
+}
+
+#grid2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+#grid2 .circle {
+  border: 1px solid black;
+  border-radius: 100%;
+  background-color: #8a6a5b;
+  width: 50px;
+  height: 50px;
+}
+
+#grid2 .rectangle {
+  border-radius: 10px;
+  width: 100%;
+  height: 55px;
+  background-color: #884625;
+  opacity: 0.8;
+  position: absolute;
+  top: 15px;
+}
+
+#grid3 {
+  display: grid;
+}
+
+#grid3 div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  padding: 10px;
+}
+
+#grid3 div .circle {
+  background-color: #8a6a5b;
+  border: 1px solid black;
+  padding: 0;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
+
+#grid4 {
+  display: grid;
+}
+
+#grid4 div {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  
+}
+
+#grid4 div .circle {
+  border: 1px solid black;
+  border-radius: 100%;
+  background-color: #8a6a5b;
+  width: 30px;
+  height: 30px;
+}
